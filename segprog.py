@@ -6,6 +6,7 @@ print(b)
 c=b
 b=a
 a=c
+del c
 print("Paso 1. V finales")
 print(a)
 print(b)
