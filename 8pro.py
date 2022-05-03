@@ -1,7 +1,11 @@
-n=int(input("ingrese un número"))
+n=input("ingrese un número")
 f=1
-while n>1:
-    f=f*n
+if (n.isdigit()):
+    n=int(n)
+    while n>1:
+        f=f*n
 
-    n=n-1
-print("el factorial es: ",f)
+        n=n-1
+    print("el factorial es: ",f)
+else:
+    print("ingrese numero valido")
